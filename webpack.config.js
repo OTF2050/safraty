@@ -63,7 +63,7 @@ module.exports = {
             },
            
             {
-                test: /\.css$/,                  
+              test: /\.(sa|sc|c)ss$/,                  
 	            use: [
                     {
 
@@ -77,7 +77,8 @@ module.exports = {
             
                       },
                       
-		              'css-loader'
+		              'css-loader',
+                  'sass-loader'
                 ]
             }
 
@@ -92,6 +93,37 @@ module.exports = {
             template: "./src/HTML/index.html",
       
           }),
+          new HtmlWebpackPlugin({
+
+            filename: "contact.html",
+      
+            template: "./src/HTML/contact.html",
+      
+          }),
+          new HtmlWebpackPlugin({
+
+            filename: "services.html",
+      
+            template: "./src/HTML/services.html",
+      
+          }),
+
+          new HtmlWebpackPlugin({
+
+            filename: "tours.html",
+      
+            template: "./src/HTML/tours.html",
+      
+          }),
+
+          new HtmlWebpackPlugin({
+
+            filename: "details.html",
+      
+            template: "./src/HTML/details.html",
+      
+          }),
+
           new MiniCssExtractPlugin({filename: "css/style.css"}),
 
           new OptimizeCssAssetsPlugin({}),

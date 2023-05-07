@@ -1,0 +1,149 @@
+#navbar{
+    .navbar-nav{
+        margin-right: 25px; 
+        display: flex;
+    }
+    .nav-link{
+        display: inline-block;
+        color:  rgb(214, 214, 214);
+        background-color: $logo-color;
+        margin-left: 12px;
+      }
+      .btn-sign-in{
+        background-color: $btn-color;
+        color: white;
+      }
+      border-bottom: 5px solid $logo-color;
+
+}
+.night-mode{
+    p{
+        color: white;
+    }
+    .card{
+        background-color: $btn-color;
+      }
+      .common-question .card-body p{
+        color: $btn-color;
+        background-color: white;
+      }
+      .icons{
+        color: whitesmoke;
+      }
+}
+section.tour-gallery{
+
+    .gallery-link img {
+        width: 100%;
+    }
+
+    .gallery-link .gallery-hover {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    color: #fff;
+    z-index: 5;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.gallery-hover i {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    font-size: 36px;
+    transform: translate(50%, 50%);
+}
+.gallery-link:hover .gallery-hover {
+    opacity: 1;
+}
+.gallery-overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 30;
+    padding: 5% 10%;
+    opacity: 0;
+    margin-top: -100vh;
+    transition: all 1s ease;
+}
+.gallery-overlay:target {
+    opacity: 1;
+    margin-top: 0;
+}
+.gallery-overlay .overlay-text h4 {
+    font-size: 36px;
+    line-height: 52px;
+    color: $overlay-color;
+    margin-bottom: 30px;
+}
+.gallery-overlay .overlay-text p {
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 50px;
+    color: #919191;
+}
+.gallery-overlay .overlay-text a.btn {
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 25px;
+    padding: 0 30px;
+    background-color: $overlay-color;
+    color: #fff;
+}
+.overlay-text a.close {
+    color: #ffffff;
+    position: absolute;
+     margin-left: 14px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+}
+#our-sertif{
+    .circle{
+        position: relative;
+        }
+        .icons{
+            position: relative;
+            left: -130px;
+            top: -28px;
+            color: $btn-color;
+          
+          }
+          .text-section{
+            padding-top:8px;
+          }
+          
+
+
+}
+
+footer {
+    h4 {
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+}

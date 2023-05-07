@@ -1,0 +1,152 @@
+@import "./variables";
+@import "./nesting";
+@import "./table";
+
+
+
+body{
+    margin:0;
+  }
+   
+  /*************************************************
+  ******************NAVBAR-START********************
+  **********/
+   #navbar.navbar .navbar-nav .nav-link{
+      color:  rgb(214, 214, 214);
+      background-color: $logo-color;
+  }
+  /* #navbar{
+      background-color: rgba(126, 126, 133, 0.9) !important;
+  } */
+
+  
+  #navbar.navbar  .btn-sign-in {
+      background-color: $btn-color;
+      color: $white;
+  }
+  #navbar{
+      border-bottom: 5px solid $logo-color;
+  }
+  #navbar.navbar  .fa-moon{
+  color: $btn-color;
+  }
+  #navbar.navbar .navbar-brand{
+      color: #343456;
+  }
+  .btn-custom{
+      background-color: #000000;
+      color: $white;
+  }
+  .btn-custom-2{
+      background-color: $btn-color-2;
+      color: $white; 
+  }
+
+  .search-bar{
+      background-color: $logo-color !important;
+      color: aliceblue !important;
+  }
+  .night-mode {
+      background-color: rgba(18, 18, 18, 0.9) !important;
+      color: $white !important;
+    }
+    /********NAVBAR-END********/
+    /* toggler-strat */
+/* Wrapper */
+
+
+section.tour-gallery  .gallery-link .gallery-hover {
+    color: $white;
+    background-color: $overlay-color
+}
+
+
+
+
+section.tour-gallery  .gallery-overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+
+section.tour-gallery .gallery-overlay .overlay-text h4 {
+    color: $overlay-color;
+}
+
+section.tour-gallery .gallery-overlay .overlay-text ul {
+    border-bottom: 1px solid #efefef;
+}
+
+section.tour-gallery .gallery-overlay .overlay-text li a {
+    color: $white;
+}
+
+section.tour-gallery .gallery-overlay .overlay-text p {
+    color: $white;
+}
+
+section.tour-gallery .gallery-overlay .overlay-text a.btn {
+    background-color: $overlay-color;
+    color: $white;
+}
+
+section.tour-gallery .gallery-overlay .overlay-text a.close {
+    color: $white;
+
+}
+
+ .accordion .card .card-header{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) !important;
+ }
+  .accordion .card .card-header:hover{
+    background-color: $white;
+    color: $btn-color !important;
+ }
+  .accordion .card .card-header button{
+    font-style: none;
+    color: rgb(255, 255, 255);
+ }
+  .accordion .card .card-header button:hover{
+    font-style: none;
+    color: rgb(4, 4, 4);
+ }
+  
+ .faq-title h2 {
+    color: #555;
+}
+
+ .accordion .accordion-item {
+    border: 1px solid #ebebeb;
+}
+
+ .accordion .accordion-item button {
+    color: #555;
+}
+
+ .accordion .accordion-item .accordion-body {
+    color: #c9c9c9;
+}
+
+ .accordion .accordion-item .accordion-button:not(.collapsed) {
+    background-color: $white;
+}
+
+
+footer {
+    background-color: #d0cccc;
+  }
+
+
+
+  .reviews-section {
+    background-color: #9695c4;
+  }
+  
+
+  
+  
+  
+  .carousel-indicators .active {
+    background-color: $logo-color;
+  }
