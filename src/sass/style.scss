@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./nesting";
 @import "./table";
+@import "./mixin";
 
 
 
@@ -70,7 +71,7 @@ section.tour-gallery  .gallery-overlay {
 
 
 section.tour-gallery .gallery-overlay .overlay-text h4 {
-    color: $overlay-color;
+    color: $overlay-color-2;
 }
 
 section.tour-gallery .gallery-overlay .overlay-text ul {
@@ -134,7 +135,7 @@ section.tour-gallery .gallery-overlay .overlay-text a.close {
 
 
 footer {
-    background-color: #343333;
+    background-color: #111320;
     color: whitesmoke;
   }
 
@@ -151,7 +152,10 @@ footer {
   
 
   
-  
+  section#destinations button,a{
+    @include button-style($btn-color-2);
+
+}
   
   .carousel-indicators .active {
     background-color: $logo-color;

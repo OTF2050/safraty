@@ -29,6 +29,7 @@
     "@popperjs/core": "^2.11.7",
     "file-loader": "^6.2.0",
     "sass": "^1.62.1",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "webpack-serve": "^4.0.0"
   }
 }

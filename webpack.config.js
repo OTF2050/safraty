@@ -115,6 +115,13 @@ module.exports = {
             template: "./src/HTML/tours.html",
       
           }),
+          new HtmlWebpackPlugin({
+
+            filename: "istanbel.html",
+      
+            template: "./src/HTML/istanbel.html",
+      
+          }),
 
           new HtmlWebpackPlugin({
 
