@@ -152,7 +152,7 @@ footer {
   
 
   
-  section#destinations button,a{
+  #destinations button,#destinations a{
     @include button-style($btn-color-2);
 
 }
