@@ -151,10 +151,30 @@ footer {
   }
   
 
-  
-  #destinations button,#destinations a{
-    @include button-style($btn-color-2);
+  element.style {
+}
+.card-subtitle, .card-text:last-child {
+    margin-bottom: 0;
+}
+p {
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
 
+a {
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+}
+  #destinations  .card-body{
+    @include button-style($btn-color-2);
 }
   
   .carousel-indicators .active {

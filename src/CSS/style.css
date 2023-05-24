@@ -105,7 +105,7 @@ body{
   overflow: hidden;
   padding-bottom: 70px;
   float: right !important;
-  margin-top: 70px;
+  margin-top: 70px !important;
 }
 .sidebar:hover {
   overflow-y: scroll;
@@ -185,7 +185,6 @@ section.tour-gallery  .gallery-link .gallery-hover {
   position: relative;
   color: rgb(0, 74, 173);
   background-color: rgb(255, 255, 255);
-
 }
 section.tour-gallery  .gallery-link .gallery-hover i {
     position: absolute;
@@ -365,6 +364,10 @@ footer  img {
     height: auto;
     margin-bottom: 20px;
   }
+  .card{
+    position: absolute;
+  }
+
   #brand-logos{
     background-color: #aaa8a8;
     padding: 25px 0 ;
@@ -558,6 +561,10 @@ p {
   align-items: center;
   margin-bottom: 20px;
 }
+#toggler{
+  margin-bottom: 20px;
+
+}
 
 .restaurant img {
   width: 150px;
@@ -610,7 +617,41 @@ p {
       width: 80%;
       justify-content: center;
     }
-
-    
   }
+@media (min-width:576px){
+  .carousel-item h1.EGYPT{
+    background-color: #ffffff;
+    padding: 21px;
+    color: #004AAD;
+  }
+  .carousel-item h1.paris{
+   background-color: white;
+   padding: 21px;
+   position: relative;
+   color: #004AAD;
+  
+   left: 111px;
+  }
+  #toggler{
+    margin-top: 25px;
+
+  }
+  .sidebar{
+    margin-top: 139px;
+  }
+  .navbar{
+    position: absolute;
+  }
+  
+
+  .carousel-item h1.stanbel{
+    padding: 21px;
+    color: #004AAD;
+    top: -140px;
+    left: 171px;
+    position: relative;
+    color: rgb(0, 74, 173);
+    background-color: rgb(255, 255, 255);
+  }
+}
   
